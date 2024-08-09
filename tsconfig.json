@@ -6,11 +6,13 @@
     },
     "module": "esnext", // ou "es6"
     "target": "esnext", // ou "es6"
-    "esModuleInterop": true,
+    "lib": ["dom", "esnext"], // Ajoutez les bibliothèques DOM et ESNext
+    
     "moduleResolution": "node",
     "jsx": "react-jsx" 
   },
   "files": [],
+  
   "references": [
     {
       "path": "./tsconfig.app.json"
