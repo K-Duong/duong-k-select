@@ -25,15 +25,12 @@ const SelectItem: React.FC<SelectItemProps> = ({
   selectedOption,
   handleSelect,
 }) => {
+  
   const [value, setValue] = useState(options.length > 0 ? options[0].value : "");
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setValue(event.target.value);
     handleSelect(event);
   };
-  // if(options.length === 0) {
-  //   console.error(`Error: There are no option to select ${label}`)
-  //   return
-  // }
 
   return (
     <>

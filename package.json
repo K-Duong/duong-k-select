@@ -5,12 +5,15 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/index.cjs.js",
-  "module": "./dist/my-lib-select-list.js",
+  "description": "A customizable React select list component.",
+  "main": "./dist/kduong-react-select.js",
+  "author": "KDuong",
+  "license": "MIT",
+  "module": "./dist/kduong-react-select.js",
   "exports": {
     ".": {
-      "import": "./dist/my-lib-select-list.js",
-      "require": "./dist/my-lib-select-list.umd.cjs"
+      "import": "./dist/kduong-react-select.js",
+      "require": "./dist/kduong-react-select.umd.cjs"
     }
   },
   "scripts": {
@@ -47,5 +50,11 @@
     "typescript": "^5.2.2",
     "vite": "^5.3.4",
     "vite-plugin-dts": "^4.0.0-beta.2"
-  }
+  },
+  "keywords": [
+  "react",
+  "select",
+  "dropdown",
+  "component"
+]
 }

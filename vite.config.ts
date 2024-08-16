@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "./src/lib/index.tsx"),
-      name: "myLibSelectList",
-      fileName: "my-lib-select-list",
+      name: "kduongLib",
+      fileName: "kduong-react-select",
       formats: ["es", "cjs", "umd", "iife"]
     },
     rollupOptions: {
