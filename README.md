@@ -7,13 +7,13 @@ This library allows you to customize your react select dropdown component.
 You can install the library by using npm or yarn:
 
 ```bash
-npm install react-select-list
+npm install kduong-react-select
 ```
 
 or with yarn:
 
 ```bash
-yarn add react-select-list
+yarn add kduong-react-select
 ```
 
 ## Prerequisites
@@ -28,7 +28,7 @@ Here’s how you can use the `SelectItem` component in your React project:
 
 ```javascript
 import React, { useState } from "react";
-import { SelectItem } from "react-select-list";
+import { SelectItem } from "kduong-react-select";
 
 const options = [
   { label: "Option 1", value: "1" },
