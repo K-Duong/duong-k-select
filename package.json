@@ -1,6 +1,7 @@
 {
-  "name": "@kduong-lib/react-select-list",
+  "name": "kduong-react-select",
   "version": "1.0.0",
+  "private": false,
   "type": "module",
   "files": [
     "dist"
@@ -52,9 +53,17 @@
     "vite-plugin-dts": "^4.0.0-beta.2"
   },
   "keywords": [
-  "react",
-  "select",
-  "dropdown",
-  "component"
-]
+    "react",
+    "select",
+    "dropdown",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-Duong/duong-k-select.git"
+  },
+  "bugs": {
+    "url": "https://github.com/K-Duong/duong-k-select/issues"
+  },
+  "homepage": "https://github.com/K-Duong/duong-k-select#readme"
 }
